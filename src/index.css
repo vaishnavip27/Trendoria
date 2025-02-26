@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  .font-myfont {
+    font-family: "MyCustomFont", sans-serif;
+  }
+}
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("/e-commerce/src/assets/fonts/AvenirNextLTPro-Bold.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
