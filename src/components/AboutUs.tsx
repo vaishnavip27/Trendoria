@@ -7,10 +7,10 @@ import image4 from "../assets/images/image-4.jpg";
 
 const About: React.FC = () => {
   return (
-    <section className="relative container mx-auto px-8 mb-32">
+    <section className="relative container mx-auto px-14 mb-44">
       {/* Header */}
       <div className="flex justify-between items-center mb-24 relative z-10">
-        <h1 className="text-[80px] font-black tracking-tighter leading-none">
+        <h1 className="text-7xl font-black tracking-tighter leading-none">
           ABOUT US
         </h1>
         <a
@@ -30,14 +30,14 @@ const About: React.FC = () => {
             <img
               src={image3}
               alt="Model in black turtleneck"
-              className="w-[360px] h-[500px] object-cover"
+              className="w-[360px] h-[500px] object-cover grayscale"
             />
           </div>
           <div className="absolute right-10 top-0">
             <img
               src={image4}
               alt="Model sitting"
-              className="w-[360px] h-[500px] object-cover"
+              className="w-[360px] h-[500px] object-cover grayscale"
             />
           </div>
         </div>
@@ -71,14 +71,14 @@ const About: React.FC = () => {
               <img
                 src={image1}
                 alt="Model posing"
-                className="w-[360px] h-[500px] object-cover"
+                className="w-[360px] h-[500px] object-cover grayscale"
               />
             </div>
             <div className="absolute -bottom-20 left-20">
               <img
                 src={image2}
                 alt="Fashion detail"
-                className="w-[360px] h-[500px] object-cover"
+                className="w-[360px] h-[500px] object-cover grayscale"
               />
             </div>
           </div>

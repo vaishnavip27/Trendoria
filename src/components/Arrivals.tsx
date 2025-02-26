@@ -42,7 +42,7 @@ const Arrivals: React.FC = () => {
     <div className="container px-12 mb-44">
       {/* Title & See All Button */}
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-6xl font-black tracking-tighter">NEW ARRIVALS</h1>
+        <h1 className="text-7xl font-black tracking-tighter">NEW ARRIVALS</h1>
         <a href="#" className="text-lg uppercase flex items-center">
           SEE ALL
           <svg
