@@ -3,7 +3,9 @@ import React from "react";
 import new1 from "../assets/images/new-1.png";
 import new2 from "../assets/images/new-2.png";
 import new3 from "../assets/images/new-3.png";
-import Image7 from "../assets/images/image-7.jpg";
+import Image10 from "../assets/images/image-10.jpg";
+import Image11 from "../assets/images/image-11.jpg";
+import Image12 from "../assets/images/image-12.jpg";
 
 interface ClothingItem {
   id: number;
@@ -20,21 +22,21 @@ const Arrivals: React.FC = () => {
       name: "TECHNICAL NYLON WIDE TANK TOP",
       price: 790.0,
       imageUrl: new1,
-      thumbnailUrl: Image7,
+      thumbnailUrl: Image12,
     },
     {
       id: 2,
       name: "SILK TURTLENECK TOP",
       price: 650.0,
       imageUrl: new2,
-      thumbnailUrl: Image7,
+      thumbnailUrl: Image10,
     },
     {
       id: 3,
       name: "OVERSIZED TECHNICAL NYLON PARKA",
       price: 1490.0,
       imageUrl: new3,
-      thumbnailUrl: Image7,
+      thumbnailUrl: Image11,
     },
   ];
 
@@ -72,7 +74,7 @@ const Arrivals: React.FC = () => {
                 <img
                   src={item.imageUrl}
                   alt={item.name}
-                  className="h-[450px] w-[360px] object-cover "
+                  className="h-[450px] w-[360px] object-cover"
                 />
               </div>
 

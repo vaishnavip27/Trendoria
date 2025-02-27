@@ -5,6 +5,7 @@ import Arrivals from "./components/Arrivals";
 import AboutUs from "./components/AboutUs";
 import Collections from "./components/Collections";
 import Newsletter from "./components/Newsletter"
+import Footer from "./components/Header/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <AboutUs />
       <Collections />
       <Newsletter/>
+      <Footer/>
     </div>
   );
 };
