@@ -10,7 +10,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center gap-20 text-sm font-semibold ">
         <div>SEARCH</div>
-        <div>CART</div>
+        <button className="bg-black text-white py-2.5 px-8 font-normal hover:bg-gray-800 cursor-pointer">LOG IN</button>
       </div>
     </div>
   );

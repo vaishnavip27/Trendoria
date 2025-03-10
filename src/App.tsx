@@ -1,25 +1,17 @@
-import Navbar from "./components/Header/Navbar";
-import Heading from "./components/Heading";
-import HeroSection from "./components/HeroSection";
-import Arrivals from "./components/Arrivals";
-import AboutUs from "./components/AboutUs";
-import Collections from "./components/Collections";
-import Newsletter from "./components/Newsletter"
-import Footer from "./components/Header/Footer";
+import React from 'react'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import LandingPage from './pages/Landing'
+import AuthPage from './pages/Auth'
 
 const App = () => {
   return (
-    <div className="bg-[#FFFFFF] font-myfont h-screen w-full overflow-y-auto">
-      <Navbar />
-      <HeroSection />
-      <Heading />
-      <Arrivals />
-      <AboutUs />
-      <Collections />
-      <Newsletter/>
-      <Footer/>
-    </div>
-  );
-};
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage/>}/>
+        <Route path="/auth" element={<AuthPage />} />
+      </Routes>
+    </Router>
+  )
+}
 
-export default App;
+export default App
