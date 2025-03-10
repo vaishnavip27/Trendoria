@@ -65,9 +65,9 @@ const SignupPage = () => {
                 Create Account
               </button>
 
-              <span className="text-sm">
+              <span className="text-base tracking-tight">
                 Already have an account?{" "}
-                <Link to="/login" className="underline font-semibold text-purple-800">
+                <Link to="/login" className="underline text-sm font-semibold text-purple-800">
                   Login Here
                 </Link>
               </span>
