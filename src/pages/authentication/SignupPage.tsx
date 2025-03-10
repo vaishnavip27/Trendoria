@@ -67,7 +67,7 @@ const SignupPage = () => {
 
               <span className="text-sm">
                 Already have an account?{" "}
-                <Link to="/login" className="underline">
+                <Link to="/login" className="underline font-semibold text-purple-800">
                   Login Here
                 </Link>
               </span>
