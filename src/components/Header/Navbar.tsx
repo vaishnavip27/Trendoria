@@ -13,6 +13,7 @@ const Navbar = () => {
         <button className="bg-black text-slate-200 py-2.5 px-8 font-normal hover:bg-gray-800 cursor-pointer">
           LOG IN
         </button>
+        {/* extra div here */}
       </div>
     </div>
   );
