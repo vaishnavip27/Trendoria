@@ -14,6 +14,7 @@ const Navbar = () => {
           LOG IN
         </button>
         {/* extra div here */}
+        {/* heres the key test */}
       </div>
     </div>
   );
